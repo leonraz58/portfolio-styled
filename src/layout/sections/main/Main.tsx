@@ -75,7 +75,7 @@ const MainTitle = styled.h1`
 `
 
 const Name = styled.h2`
-    ${font({family: "Josefin Sans, sans-serif", weight: 700, Fmin: 36, Fmax: 50})}
+    ${font({family: "'Josefin Sans', sans-serif", weight: 700, Fmin: 36, Fmax: 50})}
     //font-family: 'Josefin Sans', sans-serif;
     //font-weight: 700;
     //font-size: 50px;
