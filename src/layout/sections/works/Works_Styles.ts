@@ -7,6 +7,7 @@ import {theme} from "../../../styles/Theme";
 import {Link} from "../../../components/Link";
 
 const StyledWorks = styled.section`
+    position: relative;
     ${FlexWrapper} {
         gap: 30px;    
     }
