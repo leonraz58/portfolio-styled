@@ -4,7 +4,6 @@ import {font} from "../../../styles/Common";
 
 const StyledMain = styled.section`
     min-height: 100vh;
-    background-color: #ffeaac;
     display: flex;
 `
 
