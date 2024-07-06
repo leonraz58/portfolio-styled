@@ -8,6 +8,7 @@ import {Contacts} from "./layout/sections/contacts/Contacts";
 import {Slogan} from "./layout/sections/slogan/Slogan";
 import {Footer} from "./layout/footer/Footer";
 import {Particle} from "./components/particle/Particle";
+import {GoTopBtn} from "./components/goTopBtn/goTopBtn";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Contacts/>
             <Slogan/>
             <Footer/>
+            <GoTopBtn/>
         </div>
     );
 }
