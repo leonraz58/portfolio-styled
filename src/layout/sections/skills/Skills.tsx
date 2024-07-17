@@ -44,7 +44,7 @@ export const Skills: React.FC = () => {
         <S.StyledSkills id={"skills"}>
             <Container>
                 <SectionTitle>My Skills</SectionTitle>
-                <FlexWrapper wrap={"wrap"} justify={"space-between"}>
+                <FlexWrapper wrap={"wrap"} justify={"space-around"} align={"center"}>
                     <Fade cascade={true} damping={0.2}>
                         {skillData.map((skill, index) => {
                             return <Skill iconId={skill.iconId}
